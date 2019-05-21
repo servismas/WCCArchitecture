@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{E6EF1AE5-DD5E-49E8-A096-07BAF3C04C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLWcfServiceLibrary1", "BLLWcfServiceLibrary1\BLLWcfServiceLibrary1.csproj", "{958C8F99-00EF-49FF-925C-87B003547155}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLWcfServiceLibrary", "BLLWcfServiceLibrary1\BLLWcfServiceLibrary.csproj", "{958C8F99-00EF-49FF-925C-87B003547155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTEST", "ConsoleAppTEST\ConsoleAppTEST.csproj", "{3254E83D-1E9A-4309-9AAD-6D65BA016AB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{958C8F99-00EF-49FF-925C-87B003547155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{958C8F99-00EF-49FF-925C-87B003547155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{958C8F99-00EF-49FF-925C-87B003547155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3254E83D-1E9A-4309-9AAD-6D65BA016AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3254E83D-1E9A-4309-9AAD-6D65BA016AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3254E83D-1E9A-4309-9AAD-6D65BA016AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3254E83D-1E9A-4309-9AAD-6D65BA016AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
